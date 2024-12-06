@@ -1,0 +1,1 @@
+tags = re.findall(r'(?P<element><([dpiv]{1,3})>(?:.+?)<\/\2>)', texto)

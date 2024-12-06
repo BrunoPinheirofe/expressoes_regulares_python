@@ -49,4 +49,4 @@ print(re.sub(r'Jo{1,}ão{1,}','Carlos', texto))
 
 texto2 = 'João ama ser amado '
 
-print(re.findall('ama[a-zA-z]{,2}', texto2, flags=re.I))
+print(re.findall('ama[a-zA-z]{,2f}', texto2, flags=re.I))
